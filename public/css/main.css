@@ -520,7 +520,7 @@ body {
 
 @media screen and (orientation: portrait) {
     .header__logo {
-        margin-left:12.57vw;
+        margin-left:9.57vw;
         margin-top: 10vw
     }
 }
@@ -531,7 +531,9 @@ body {
 
 @media screen and (orientation: portrait) {
     .header__logo>img {
-        width:41vw
+        width:41vw;
+        height: 12vw;
+        
     }
 }
 
