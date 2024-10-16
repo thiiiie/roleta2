@@ -184,18 +184,7 @@
         var timeIp = "";
         var prUrl = window.location.href;
         var attributes = "";
-        //========================================Часть отвечает за интеграцию с DMC dmp====================================
-        // window.onpopstate = function (t) {
-        //     if (!prUrl.includes('medic') && !t.target.document.URL.includes('roulette')){
-        //         window.location.replace('https://track-mixer.ru/?utm_campaign=610');
-        //     }
-        // }
-        // (new Image()).src = "https://sync.1dmp.io/pixel.gif?c3fed494-72b9-433d-8e9f-cfffb25e7b92&brid=9d941adb-daf9-42c9-a8aa-7f38d50dfd53&pid=w&uid=" + getCookie('uid')
-        // function getCookie(name) {
-        //     var value = "; " + document.cookie;
-        //     var parts = value.split("; " + name + "=");
-        //     if (parts.length == 2) return parts.pop().split(";").shift();
-        // }
+
         this.getDmp = function(callback) {
           if (typeof clientId != 'undefined' && clientId && clientId.length > 0) {
             callback(clientId);
